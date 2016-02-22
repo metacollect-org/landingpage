@@ -123,6 +123,12 @@ header {
 	transition:				border 300ms, padding 300ms;
 }
 
+
+.narrow header {
+	padding-left:			1rem;
+	padding-right:			1rem;
+}
+
 header.slim {
 	padding-top:			0.5rem;
 	padding-bottom:			0.5rem;
@@ -141,6 +147,10 @@ header .controls {
 	white-space: 			nowrap;
 }
 
+.narrow header .controls{
+	right:					1rem;
+}
+
 header .controls > *{
 	display:				inline-block;
 	vertical-align:			middle;
@@ -155,9 +165,31 @@ header .controls nav a {
 }
 
 
-body > section > section {
-	padding:				4rem 6rem;
-	min-height:				20rem;
+
+.narrow header .controls nav {
+	display:				none;
+}
+
+
+header .controls button {
+	margin-left:			2rem;
+	transition:				opacity 200ms;
+}
+
+header:not(.slim) #scroll-top {
+	opacity:				0;
+}
+
+
+
+body > section{
+	display:				block;
+}
+
+body > section > section  {
+	display:				block;
+	margin:					0;
+	padding:				4rem 0;
 }
 
 
@@ -175,6 +207,7 @@ button {
 	color:					inherit;
 	padding:				0;
 	width:					auto;
+	font-size:				inherit;
 }
 
 button::-moz-focus-inner {
@@ -214,8 +247,6 @@ hgroup h3 {
 }
 
 
-
-
 ul {
 	list-style: 			none;
 	margin:					0;
@@ -224,33 +255,12 @@ ul {
 }
 
 ul li {
-	line-height:			1.2em;
-	height:					2.4em;
-	margin:					1em 0;
-}
-
-
-
-
-input,
-textarea {
-	display:				block;
-	border:					none;
-	background:				transparent;
-	border-radius:			0;
-	width:					100%;
-}
-
-textarea {
-	min-height:				15rem;
-	resize:					none;
-}
-
-form > div {
-	background-color:		#f2f2f2;
-	padding:				1rem;
+	line-height:			1.2rem;
+	height:					2.4rem;
 	margin:					1rem 0;
 }
+
+
 
 
 footer {
@@ -263,56 +273,75 @@ footer {
 
 
 
-
-
-
-
-
-
-.col-33 {
-	text-align:				center;
-	margin:					4rem 0;
+.max-rem {
+	width:					60rem;
+	margin:					auto;
 }
 
-.col-33 > *{
+.narrow .max-rem {
+	width:					30rem;
+}
+
+
+
+
+.col-3 {
+	text-align:				center;
+}
+
+.col-3 > * {
 	display:				inline-block;
-	width:					30%;
-	max-width:				30%;
+	width:					14rem;
+	margin:					1rem 3rem;
 	vertical-align:			top;
 }
 
-.col-33 > *:first-child{
-	margin-right:			5%;
+
+.narrow .col-3:not(.wrap) > * {
+	width:					9rem;
+	margin:					1rem 0;
+} 
+
+
+.narrow .col-3:not(.wrap) > *:nth-child(2) {
+	margin:					1rem 1rem;
 }
 
-.col-33 > *:last-child{
-	margin-left:			5%;
+
+.narrow .col-3.wrap > * {
+	width:					20rem;
 }
 
 
 
 
 
-.col-50 {
+
+.col-2 {
 	text-align:				center;
 	margin:					5rem 0;
 }
 
-.col-50 > * {
+.col-2 > * {
 	display:				inline-block;
-	width:					40%;
-	max-width:				40%;
+	width:					24rem;
 	vertical-align:			top;
 }
 
 
 
-.col-50 > *:first-child{
-	margin-right:			10%;
+.col-2 > *:first-child{
+	margin-right:			6rem;
 }
 
-.col-50 > *:last-child{
-	margin-left:			10%;
+.col-2 > *:last-child{
+	margin-left:			6rem;
+}
+
+
+.narrow .col-2 > * {
+	width:					20rem;
+	margin:					0 !important;
 }
 
 
@@ -320,19 +349,14 @@ footer {
 .mono {
 	text-align:				center;
 	font-style: 			italic;
+	width:					30rem;
+	margin:					auto;
 }
 
 
-
-.tightened-10 {
-	padding:				0 10%;
+.narrow .mono {
+	width:					20rem;
 }
-
-.tightened-20 {
-	padding:				0 20%;
-}
-
-
 
 
 .icon-above-text {
@@ -354,6 +378,8 @@ footer {
 	line-height:			2em;
 	color:					#03b6ac;
 }
+
+
 
 
 
@@ -381,7 +407,7 @@ footer {
 
 .assoc {
 	text-align:				left;
-	background-color:		#e8e8e8;
+	background-color:		rgba(0,0,0,0.1);
 }
 
 .assoc > * {
