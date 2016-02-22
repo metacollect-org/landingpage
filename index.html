@@ -1,0 +1,56 @@
+<!doctype html>
+
+
+<html lang = "de" ng-app = "metaCollect">
+
+	<head>
+		<title>metacollect</title>
+
+
+		<meta charset="utf-8"/>      
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<link type="text/css" rel="stylesheet" href="styles/styles.css"/>
+		<link type="text/css" rel="stylesheet" href="styles/font-awesome.min.css"/>
+
+		<script src="js/lib/angular.min.js"></script>
+		<script src="js/lib/angular-route.min.js"></script>
+		<script src="js/lib/smooth-scroll.js"></script>
+		<script src="js/lib/elastic.js"></script>
+		<script src="js/app.js"></script>
+
+	</head>
+	<body>
+
+		<header class ="bgc-3">
+
+			<hgroup id ="metacollect">
+				<h1>meta<strong>collect</strong></h1>
+				<h2>open database for refugee projects</h2>
+			</hgroup>
+
+			<div class ="controls">
+				<nav>
+					<a smooth-scroll target="benefits">Vorteile</a>
+					<a smooth-scroll target="vision">Vision</a>
+					<a smooth-scroll target="team">Team</a>
+					<a smooth-scroll target="associates">Partner</a>
+					<a smooth-scroll target="contact">Kontakt</a>
+				</nav>
+				<button>
+					DE/EN
+				</buton>
+			</div>
+		</header>
+
+		<section ng-view>
+		</section>
+
+		<footer class ="bgc-4">
+			<a href="">Impressum</a>
+		</footer>
+
+
+	<body>
+	</body>
+</html>
