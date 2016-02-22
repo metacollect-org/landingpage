@@ -48,12 +48,13 @@ metaCollect.run([
 
 	function($document){
 
-		var body = $document.find('body')
+		var body 	= $document.find('body')
+			header 	= $document.find('header')
 
 		$document.on('scroll', function(){
 			var padding_top	= parseInt(getComputedStyle(body[0]).getPropertyValue('padding-top'))
 
-			body.toggleClass('slim', padding_top + document.body.getBoundingClientRect().top < 0)
+			header.toggleClass('slim', padding_top + document.body.getBoundingClientRect().top < 0)
 		})
 	}
 ])		

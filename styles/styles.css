@@ -123,12 +123,11 @@ header {
 	transition:				border 300ms, padding 300ms;
 }
 
-.slim header {
+header.slim {
 	padding-top:			0.5rem;
 	padding-bottom:			0.5rem;
-	border-bottom:			0.2rem solid #ccc;
+	box-shadow:				0 0 0.5rem rgba(0,0,0,0.3);	
 }
-
 
 header .controls {
 	display:				block;
