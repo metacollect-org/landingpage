@@ -13,7 +13,7 @@
 
 	"FOOTER": {
 
-		"IMPRESSUM":			"Impressum"
+		"IMPRESSUM":			"Imprint"
 
 	},
 
@@ -21,46 +21,46 @@
 	"DATABASE": {
 		"HEADING":	{
 
-			"LINE_1":			"Hier finden Sie in Kürze <strong>unsere</strong>",
-			"LINE_2":			"Datenbank für Refugee Initiativen"
+			"LINE_1":			"Soon, you will find <strong>our</strong>",
+			"LINE_2":			"database for refugee initiatives at this place"
 		},
-		"LINE_1":				"Daten veralten",
-		"LINE_2":				"Daten finden",
-		"LINE_3":				"Daten einbinden"
+		"LINE_1":				"Edit data",
+		"LINE_2":				"Find data",
+		"LINE_3":				"Integrate data"
 	},
 
 	"BENEFITS": {
 
-		"HEADING":				"Deine Vorteile bei <strong>Uns</strong>",
-		"LINE_1":				"<strong>Informiere</strong> über dein Projekt",
-		"LINE_2":				"Teil den <strong>Bedarf Deines Projekts</strong>",
-		"LINE_3":				"Halte Deine <strong>Daten</strong> aktuell!",
-		"LINE_4":				"strong>Integriere</strong> alle Daten!",
-		"LINE_5":				"Nutze eine einheitliche <strong>Schnittstelle</strong>!",
-		"LINE_6":				"Konzentiere Dich auf den Schwerpunkt <strong>Deiner Plattform</strong>!"
+		"HEADING":				"Your advantages with <strong>us</strong>",
+		"LINE_1":				"<strong>Provide information</strong> about your project",
+		"LINE_2":				"Share your <strong>needs for your project</strong>",
+		"LINE_3":				"Keep your <strong>data</strong> up to data!",
+		"LINE_4":				"<strong>Integrate</strong> all data!",
+		"LINE_5":				"Use a standard <strong>interface</strong>!",
+		"LINE_6":				"Focus on the key aspects of <strong>your platform</strong>!"
 	},
 
 	"VISION": {
-		"HEADING":				"Unsere <strong>Vision</strong>",
-		"PARAGRAPH_1":			"metcollect ist ein <strong>Open Data Service</strong>, der aktuelle Informationen über zivilgesellschaftliche Projekte sammelt und bereitstellt!<br/> Unser Ziel ist die langfristige <strong>Stärkung aller Akteure</strong> durch die Schaffung einer <strong>einheitlichen Schnittstelle</strong>"
+		"HEADING":				"Our <strong>vision</strong>",
+		"PARAGRAPH_1":			"meta<strong>collect</strong> is an <strong>open data service</strong>, which collects and provides up-to-date information about social projects!<br/>  We aim for a longterm <strong>strengthening of all actors</strong> by offering a <strong>standard interface</strong>"
 	},
 
 	"ASSOCIATES": {
 
-		"HEADING":				"Unsere Bestehenden <strong>Partnerschaften</strong>",
-		"PARAGRAPH_1":			"<strong>RefugeeBoard</strong> ist eine online-Plattform, die einen Überblick über aktuelle Projekte bietet, Ansprechpartner, hilfreiche Links und Adresen rund um das Thema \"Ankunft in Deutschland\" versammelt und es Hilfesuchenden und Hilfegebern gleichermaßen ermöglicht schnell und direkt in Kontakt zu treten.",
-		"PARAGRAPH_2":			"<strong>InfoCompass</strong> ist eine Informations- und Kommunikationsplattform für Geflüchtete und Asylsuchende Menschen und Unerstützer in Berlin. Ziel der Plattform ist es, Informationen und Angebote für Geflüchtete und Helfer merhsprachig um Internet aber auch vor Ort in den Unterkünften zur Verfügung zu stellen. Die unterschiedlichen Zielgruppen sollem so wirkungsvoller erreicht werden können."
+		"HEADING":				"Our existent <strong>partnerships</strong>",
+		"PARAGRAPH_1":			"<strong>RefugeeBoard</strong> is an online platform which offers a general view over current projects, contact persons, helpful links and addresses around the topic \"Arriving in Germany\" and likewise enables help seekers and helpers to get in contact fast and directly.",
+		"PARAGRAPH_2":			"<strong>InfoCompass</strong> an information and communication platform for refugees and asylum seekers and their supporters in Berlin. The aim of the platform is to provide multi-language information and services for refugees and helpers online and on-site at refugee shelters. On this way, the different target groups should be reached more effectively."
 	},
 
 	"TEAM": {
-		"HEADING":				"Unser <strong>Team</strong>",
-		"PARAGRAPH_1":			"metacollect ist auf dem <strong>»Refugee Hackathon« im Oktober 2015</strong> in Berlin entstanden und wird in Zusammenarbeit mit existierenden Vernetzungs- und Übersichtsplattformen weiterentwicklet. Das Team besteht unter anderem aus Moritz, Ulrike, Markus, Britta, Stefan, Jan, Michael, Martin, John, Dandy, Steffen, Finn, Willi, Oli und Christian."
+		"HEADING":				"Our <strong>team</strong>",
+		"PARAGRAPH_1":			"meta<strong>collect</strong> came to existence at the <strong>»Refugee Hackathon« in October 2015</strong> in Berlin is further developed in cooperation with existent overview and networking platforms. The team consists, amongst others, of Moritz, Ulrike, Markus, Britta, Stefan, Jan, Michael, Martin, John, Dandy, Steffen, Finn, Willi, Oli and Christian."
 	},
 
 	"CONTACT": {
-		"HEADING:":				"Kontaktieren Sie <strong>Uns</strong>",
-		"MAIL":					"<i class =\"fa fa-envelope\"></i> E-Mail:\"<a href=\"mailto:{{address}}\">{{address}}</a>",
-		"GITHUB":				"<i class =\"fa fa-github\"></i> <a href =\"{{address}}\">Projekt bei github</a>"
+		"HEADING:":				"Contact <strong>ous</strong>",
+		"MAIL":					"<i class =\"fa fa-envelope\"></i> e-mail: <a href=\"mailto:{{address}}\">{{address}}</a>",
+		"GITHUB":				"<i class =\"fa fa-github\"></i> <a href =\"{{address}}\">Project at github</a>"
 	}
 
 }
