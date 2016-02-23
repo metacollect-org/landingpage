@@ -1,14 +1,26 @@
 <hgroup>
-	<h3>Hier finden Sie in Kürze <strong>unsere</strong></h3>
-	<h2>Datenbank für Refugee Initiativen</h2>
+	<h3 translate = "DATABASE.HEADING.LINE_1"></h3>
+	<h2>{{"DATABASE.HEADING.LINE_2" | translate}}</h2>
 </hgroup>
+
+<article ng-controller = "MetaSearchCtrl">
+	<input></input>
+</articlle>
 
 <div class = "col-3">
 	<article 
-		class = "icon-above-text"
-		style = "background-image:url('images/dummy.png')"
+		class 		= "icon-above-text"
+		style 		= "background-image:url('images/dummy.png')"
 	>
-		Daten verwalten
+		<p translate = "DATABASE.LINE_1"></p>
+	</article><!--
+ --><article 
+		class = "icon-above-text"
+		style = "background-image:url('')"
+	>
+
+		<i class = "fa fa-warning"></i>
+		<p translate = "DATABASE.LINE_2"></p>
 
 	</article><!--
  --><article 
@@ -17,16 +29,7 @@
 	>
 
 		<i class = "fa fa-warning"></i>
-		Daten finden
-
-	</article><!--
- --><article 
-		class = "icon-above-text"
-		style = "background-image:url('')"
-	>
-
-		<i class = "fa fa-warning"></i>
-		Daten einbinden
+		<p translate = "DATABASE.LINE_3"></p>
 
 	</article>
 </div>

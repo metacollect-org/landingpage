@@ -2,8 +2,11 @@ metaCollect 	= 	angular.module(
 						'metaCollect',
 						[
 							'ngRoute',
+							'ngTouch',
+							'mcControllers',
 							'angularSmoothscroll',
-							'monospaced.elastic'
+							'monospaced.elastic',
+							'pascalprecht.translate'
 						]
 					)
 
@@ -13,8 +16,9 @@ metaCollect.config([
 
 	'$routeProvider',
 	'$locationProvider',
+	'$translateProvider',
 
-	function($routeProvider, $locationProvider) {
+	function($routeProvider, $locationProvider, $translateProvider) {
 
 		$routeProvider
 		.when(
@@ -37,6 +41,14 @@ metaCollect.config([
 			requireBase:	false 
 		})
 
+
+		$translateProvider.useStaticFilesLoader({
+			prefix: 'i18n/locale-',
+			suffix: '.json'
+		})
+
+		$translateProvider.preferredLanguage('de')
+		$translateProvider.useSanitizeValueStrategy(null)
 	}
 ])
 
@@ -44,11 +56,26 @@ metaCollect.config([
 
 metaCollect.run([
 
+	'$rootScope',
 	'$document',
 	'$window',
 	'$timeout',
+	'$translate',
 
-	function($document, $window, $timeout){
+	function($rootScope, $document, $window, $timeout, $translate){
+
+
+
+		$rootScope.getLanguage = function(){
+			return $translate.use()
+		}
+
+		$rootScope.toggleLanguage = function(){
+			return	$translate.use() == 'en'
+					?	$translate.use('de')
+					:	$translate.use('en')	
+		}
+
 
 		//checking if page has scroll far enough to slim down the header:
 
@@ -57,9 +84,11 @@ metaCollect.run([
 			html	= $document.find('html')
 
 		$document.on('scroll', function(){
-			var padding_top	= parseInt(getComputedStyle(body[0]).getPropertyValue('padding-top'))
+			window.requestAnimationFrame(function(){
+				var padding_top	= parseInt(getComputedStyle(body[0]).getPropertyValue('padding-top'))
 
-			header.toggleClass('slim', padding_top + document.body.getBoundingClientRect().top < 0)
+				header.toggleClass('slim', padding_top + document.body.getBoundingClientRect().top < 0)
+			})
 		})
 
 
