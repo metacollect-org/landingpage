@@ -58,7 +58,7 @@
 	},
 
 	"CONTACT": {
-		"HEADING:":				"Kontaktieren Sie <strong>Uns</strong>",
+		"HEADING":				"Kontaktieren Sie <strong>Uns</strong>",
 		"MAIL":					"<i class =\"fa fa-envelope\"></i> E-Mail: <a href=\"mailto:{{address}}\">{{address}}</a>",
 		"GITHUB":				"<i class =\"fa fa-github\"></i> <a href =\"{{address}}\">Projekt bei github</a>"
 	}
