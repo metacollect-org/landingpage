@@ -188,6 +188,10 @@ header button {
 	transition:				opacity 300ms;
 }
 
+header button .active {
+	color:					#03b6ac;
+}
+
  #scroll-top {
  	font-size:				3.6rem;
  }
