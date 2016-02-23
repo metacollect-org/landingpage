@@ -24,7 +24,7 @@
 			"LINE_1":			"Hier finden Sie in Kürze <strong>unsere</strong>",
 			"LINE_2":			"Datenbank für Refugee Initiativen"
 		},
-		"LINE_1":				"Daten veralten",
+		"LINE_1":				"Daten verwalten",
 		"LINE_2":				"Daten finden",
 		"LINE_3":				"Daten einbinden"
 	},
@@ -35,26 +35,26 @@
 		"LINE_1":				"<strong>Informiere</strong> über dein Projekt",
 		"LINE_2":				"Teil den <strong>Bedarf Deines Projekts</strong>",
 		"LINE_3":				"Halte Deine <strong>Daten</strong> aktuell!",
-		"LINE_4":				"strong>Integriere</strong> alle Daten!",
+		"LINE_4":				"<strong>Integriere</strong> alle Daten!",
 		"LINE_5":				"Nutze eine einheitliche <strong>Schnittstelle</strong>!",
 		"LINE_6":				"Konzentiere Dich auf den Schwerpunkt <strong>Deiner Plattform</strong>!"
 	},
 
 	"VISION": {
 		"HEADING":				"Unsere <strong>Vision</strong>",
-		"PARAGRAPH_1":			"metcollect ist ein <strong>Open Data Service</strong>, der aktuelle Informationen über zivilgesellschaftliche Projekte sammelt und bereitstellt!<br/> Unser Ziel ist die langfristige <strong>Stärkung aller Akteure</strong> durch die Schaffung einer <strong>einheitlichen Schnittstelle</strong>"
+		"PARAGRAPH_1":			"meta<strong>collect</strong> ist ein <strong>Open Data Service</strong>, der aktuelle Informationen über zivilgesellschaftliche Projekte sammelt und bereitstellt!<br/> Unser Ziel ist die langfristige <strong>Stärkung aller Akteure</strong> durch die Schaffung einer <strong>einheitlichen Schnittstelle</strong>"
 	},
 
 	"ASSOCIATES": {
 
 		"HEADING":				"Unsere Bestehenden <strong>Partnerschaften</strong>",
-		"PARAGRAPH_1":			"<strong>RefugeeBoard</strong> ist eine online-Plattform, die einen Überblick über aktuelle Projekte bietet, Ansprechpartner, hilfreiche Links und Adresen rund um das Thema \"Ankunft in Deutschland\" versammelt und es Hilfesuchenden und Hilfegebern gleichermaßen ermöglicht schnell und direkt in Kontakt zu treten.",
+		"PARAGRAPH_1":			"<strong>RefugeeBoard</strong> ist eine Online-Plattform, die einen Überblick über aktuelle Projekte bietet, Ansprechpartner, hilfreiche Links und Adressen rund um das Thema \"Ankunft in Deutschland\" versammelt und es Hilfesuchenden und Helfern gleichermaßen ermöglicht schnell und direkt in Kontakt zu treten.",
 		"PARAGRAPH_2":			"<strong>InfoCompass</strong> ist eine Informations- und Kommunikationsplattform für Geflüchtete und Asylsuchende Menschen und Unerstützer in Berlin. Ziel der Plattform ist es, Informationen und Angebote für Geflüchtete und Helfer merhsprachig um Internet aber auch vor Ort in den Unterkünften zur Verfügung zu stellen. Die unterschiedlichen Zielgruppen sollem so wirkungsvoller erreicht werden können."
 	},
 
 	"TEAM": {
 		"HEADING":				"Unser <strong>Team</strong>",
-		"PARAGRAPH_1":			"metacollect ist auf dem <strong>»Refugee Hackathon« im Oktober 2015</strong> in Berlin entstanden und wird in Zusammenarbeit mit existierenden Vernetzungs- und Übersichtsplattformen weiterentwicklet. Das Team besteht unter anderem aus Moritz, Ulrike, Markus, Britta, Stefan, Jan, Michael, Martin, John, Dandy, Steffen, Finn, Willi, Oli und Christian."
+		"PARAGRAPH_1":			"meta<strong>collect</strong> ist auf dem <strong>»Refugee Hackathon« im Oktober 2015</strong> in Berlin entstanden und wird in Zusammenarbeit mit existierenden Vernetzungs- und Übersichtsplattformen weiterentwicklet. Das Team besteht unter anderem aus Moritz, Ulrike, Markus, Britta, Stefan, Jan, Michael, Martin, John, Dandy, Steffen, Finn, Willi, Oli und Christian."
 	},
 
 	"CONTACT": {
