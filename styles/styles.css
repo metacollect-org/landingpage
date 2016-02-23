@@ -157,7 +157,8 @@ header nav a {
 
 .narrow header nav {
 	display:				block;
-	float:					none;
+	float:					none !important;
+	clear:					both;
 	margin:					0;
 	transition:				all 300ms;
 }
@@ -184,7 +185,7 @@ header nav a {
 header button {
 	float:					right;
 	line-height:			3.6rem;
-	margin-left:			2rem;
+	margin-left:			1rem;
 	transition:				opacity 300ms;
 }
 
