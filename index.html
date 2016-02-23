@@ -8,7 +8,7 @@
 
 
 		<meta charset="utf-8"/>      
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 		<link type="text/css" rel="stylesheet" href="styles/styles.css"/>
 		<link type="text/css" rel="stylesheet" href="styles/font-awesome.min.css"/>
@@ -29,24 +29,26 @@
 				<h2>open database for refugee projects</h2>
 			</hgroup>
 
-			<div class ="controls">
-				<nav>
-					<a smooth-scroll target="benefits">Vorteile</a>
-					<a smooth-scroll target="vision">Vision</a>
-					<a smooth-scroll target="team">Team</a>
-					<a smooth-scroll target="associates">Partner</a>
-					<a smooth-scroll target="contact">Kontakt</a>
-				</nav>
-				<button>
-					DE/EN
-				</button>
-				<button 
-					id = "scroll-top"
-					smooth-scroll target = "top"
-				>
-					<i class="fa fa-3x fa-arrow-circle-up"></i>
-				</button>
-			</div>
+			<button 
+				id = "scroll-top"
+				smooth-scroll target = "top"
+			>
+				<i class="fa fa-arrow-circle-up"></i>
+			</button>
+
+			<button>
+				DE/EN
+			</button>
+
+			<nav>
+				<a smooth-scroll target="benefits">Vorteile</a>
+				<a smooth-scroll target="vision">Vision</a>
+				<a smooth-scroll target="associates">Partner</a>
+				<a smooth-scroll target="team">Team</a>
+				<a smooth-scroll target="contact">Kontakt</a>
+			</nav>
+
+			
 		</header>
 
 		<section ng-view>

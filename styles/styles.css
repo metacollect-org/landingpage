@@ -72,6 +72,7 @@
 	margin:						0;
 	text-align:					left;
 	font-size:					1.6em;
+	line-height:				1;
 	font-family:				fira-sans-light;
 	color:						#2c3546;
 
@@ -135,46 +136,61 @@ header.slim {
 	box-shadow:				0 0 0.5rem rgba(0,0,0,0.3);	
 }
 
-header .controls {
-	display:				block;
-	position:				absolute;
-	margin-top:				-2rem;
-	height:					4rem;
-	line-height:			4rem;
-	top:					50%;
-	bottom:					0;
-	right:					2rem;
-	white-space: 			nowrap;
-}
 
-.narrow header .controls{
-	right:					1rem;
-}
-
-header .controls > *{
+header > *{
 	display:				inline-block;
 	vertical-align:			middle;
+	line-height:			3.6rem;
+	height:					3.6rem;
 }
 
-header .controls nav {
-	margin-right:			4rem;
+header nav {
+	margin-right:			2rem;
+	float:					right;
 }
 
-header .controls nav a {
+header nav a {
 	margin:					0 1rem;
 }
 
 
 
-.narrow header .controls nav {
-	display:				none;
+.narrow header nav {
+	display:				block;
+	float:					none;
+	margin:					0;
+	transition:				all 300ms;
+}
+
+.narrow header nav a {
+	margin:					0;
+	padding:				0 0.5rem;
+	border-left:			0.1rem solid #ccc;
+}
+
+.narrow header nav a:first-child {
+	padding-left:			0;
+	border-left:			none;
+}
+
+.narrow header.slim nav {
+	opacity:				0;
+	height:					0;
+	overflow:				hidden;
 }
 
 
-header .controls button {
+
+header button {
+	float:					right;
+	line-height:			3.6rem;
 	margin-left:			2rem;
-	transition:				opacity 200ms;
+	transition:				opacity 300ms;
 }
+
+ #scroll-top {
+ 	font-size:				3.6rem;
+ }
 
 header:not(.slim) #scroll-top {
 	opacity:				0;
@@ -309,7 +325,8 @@ footer {
 
 
 .narrow .col-3.wrap > * {
-	width:					20rem;
+	width:					25rem;
+	margin:					1rem 0;
 }
 
 
@@ -340,7 +357,7 @@ footer {
 
 
 .narrow .col-2 > * {
-	width:					20rem;
+	width:					25rem;
 	margin:					0 !important;
 }
 
@@ -355,7 +372,7 @@ footer {
 
 
 .narrow .mono {
-	width:					20rem;
+	width:					25rem;
 }
 
 
@@ -415,6 +432,11 @@ footer {
 	font-size:				0.85rem;
 }
 
+
+.narrow .assoc > * {
+	font-size:				1rem;
+}
+
 .assoc .img{
 	display:				block;
 	padding-top:			80%;
@@ -428,7 +450,7 @@ footer {
 	text-decoration: 		none;
 	font-weight:			bold;
 	color:					inherit;
-	font-size:				1.1em;
+	font-size:				1.1em !important;
 }
 
 
