@@ -6,9 +6,14 @@ angular.module('mcControllers', [])
 	'$http',
 
 	function($scope, $http){
-		$http.get('http://metacollect.de/api/search/project?title*icontains=refugeelll')
-		.then(function(result){
-			console.dir(result.data)
-		})
+		$http.get('http://django.dsini20.schedar.uberspace.de/api/search/project?title*icontains=refugee&format=json')
+		.then(
+			function(result){
+				console.dir(result.data)
+			},
+			function(error){
+				console.log(error)
+			}
+		)
 	}
 ])
