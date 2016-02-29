@@ -6,14 +6,31 @@ angular.module('mcControllers', [])
 	'$http',
 
 	function($scope, $http){
-		$http.get('http://django.dsini20.schedar.uberspace.de/api/search/project?title*icontains=refugee&format=json')
-		.then(
-			function(result){
-				console.dir(result.data)
-			},
-			function(error){
-				console.log(error)
-			}
-		)
+		$scope.data 	= undefined
+		$scope.search 	= ''
+
+
+		$scope.getData = function(search){
+			$scope.data = undefined
+
+			search = search.replace(/[^a-zA-Z0-9 ]/g, " ")
+
+			if(search.length <=3) return null
+			$scope.data = true
+
+			var long_search = (" "+search).replace(/\s+/g,"&title*icontains=")
+
+			$http.get('http://django.dsini20.schedar.uberspace.de/api/search/project?format=json'+long_search)
+			.then(
+				function(result){
+					$scope.data = result.data
+				},
+				function(error){
+					$scope.data = []
+				}
+			)
+		}
+
+		$scope.$watch('search', $scope.getData)
 	}
 ])

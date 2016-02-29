@@ -459,3 +459,167 @@ footer {
 }
 
 
+
+#search input{
+	display:				block;
+	margin:					auto;
+	border-radius:			0.25em;
+	padding:				0.25em 1em;
+	font-size:				1.6em;
+	width:					20em;
+	border:					none;
+	background:				#fff;
+	color:					#000;
+	font-family:			sans-serif;
+	box-shadow:				0 0 0.5em rgba(0,0,0,0.2);
+	margin:					2em auto;
+}
+
+.narrow #search input{
+	width:					10em;
+}
+
+#search .results {
+	display:				block;
+	margin:					1em 2em;
+	background:				#fff;
+	border-radius:			0.25em;
+	padding:				2em;
+}
+
+#search .results .controls {
+	display:				block;
+	text-align:				right;
+}
+
+#search .results .controls > *{
+	display:				inline-block;
+	text-align:				center;
+	line-height:			2em;
+	width:					2em;
+	margin:					0 1em;
+	cursor:					pointer;
+}
+
+#search .results li {
+	height:					auto;
+}
+
+#search .results .no-matches,
+#search .results .searching {
+	text-align:				center;
+}
+
+#search .results .logo {
+	display:				inline-block;
+	height:					3em;
+	width:					3em;
+	vertical-align:			middle;
+	background-repeat: 		no-repeat;
+	background-size:		contain;
+	background-position:	50% 50%;
+	margin:					0 1em;
+}
+
+#search .results .title{
+	color:					#000;
+	line-height:			3em;
+	vertical-align:			middle;
+	font-weight:			bold;
+}
+
+#search .results .title:hover {
+	text-decoration:		underline;
+}
+
+#search .results .description{
+	margin-left:			5em;
+}
+
+#search .results .description div {
+	font-size:				0.9em;
+	font-style: 			italic;
+}
+
+
+
+
+
+
+
+.spinner {
+	display:				inline-block;
+	height:					0;
+	width:					0;
+	margin:					1em;
+	transform-origin:		0 0;
+	animation:				rotate linear 1500ms infinite;
+	-webkit-animation:		rotate linear 1500ms infinite;
+}
+
+@keyframes rotate{
+	0%{
+		transform:			rotate(0deg);
+	}
+	100%{
+		transform:			rotate(359deg);
+	}
+}
+
+@-webkit-keyframes rotate{
+	0%{
+		transform:			rotate(0);
+	}
+	100%{
+		transform:			rotate(360);
+	}
+}
+
+
+.spinner > div {
+	position:				absolute;
+	margin-top:				-0.1em;
+	height:					0.2em;
+	width:					0.5em;
+	background:				#444;
+	margin-left:			0.4em;
+	transform-origin:		-0.4em 0.1em;
+}
+
+
+.spinner > div:nth-of-type(1){
+	transform:		rotate(0deg);
+	background:		#03b6ac;
+}
+
+.spinner > div:nth-of-type(2){
+	transform:		rotate(40deg);
+}
+
+.spinner > div:nth-of-type(3){
+	transform:		rotate(80deg);
+}
+
+.spinner > div:nth-of-type(4){
+	transform:		rotate(120deg);
+}
+
+.spinner > div:nth-of-type(5){
+	transform:		rotate(160deg);
+}
+
+.spinner > div:nth-of-type(6){
+	transform:		rotate(200deg);
+}
+
+.spinner > div:nth-of-type(7){
+	transform:		rotate(240deg);
+}
+
+.spinner > div:nth-of-type(8){
+	transform:		rotate(280deg);
+}
+
+.spinner > div:nth-of-type(9){
+	transform:		rotate(320deg);
+}
