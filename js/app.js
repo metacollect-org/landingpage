@@ -10,7 +10,11 @@ metaCollect 	= 	angular.module(
 						]
 					)
 
-
+metaCollect.filter('htmlToPlaintext', function() {
+	return 	function(text) {
+				return  text ? String(text).replace(/<[^>]+>/gm, '') : '';
+			};
+});
 
 metaCollect.config([
 

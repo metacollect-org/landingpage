@@ -3,8 +3,30 @@
 	<h2>{{"DATABASE.HEADING.LINE_2" | translate}}</h2>
 </hgroup>
 
-<article ng-controller = "MetaSearchCtrl">
-	<input></input>
+<article ng-controller = "MetaSearchCtrl" id = "search">
+	<input 
+		type				= "text"
+		ng-model 			= "search"
+		ng-model-options	= "{ debounce: 1000 }"
+	>
+	</input>
+
+	<div class = "results" ng-if = "data">
+		<ul>
+			<li ng-repeat = "item in data | limitTo:10">
+				<span class ="logo" style ="background-image: url('{{item.logo}}')"></span><!--
+			--><span class ="title"><a href ="http://django.dsini20.schedar.uberspace.de/mainApp/284/{{item.id}}">{{item.title | htmlToPlaintext}}</a></span>
+				<div class ="description">
+					<div ng-if = "getLanguage() == 'en'">
+						{{item.description_en |htmlToPlaintext}}
+					</div>
+					<div ng-if = "getLanguage() == 'de'">
+						{{item.description_de |htmlToPlaintext}}
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
 </articlle>
 
 <div class = "col-3">
