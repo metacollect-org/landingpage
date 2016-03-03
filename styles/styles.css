@@ -1,12 +1,13 @@
 /*fonts*/
 
-@font-face { font-family: 'fira-sans-semi-bold'; 		src: url('../fonts/FiraSans-SemiBold.otf')		format('opentype'); }
-@font-face { font-family: 'fira-sans-light'; 			src: url('../fonts/FiraSans-Light.otf')			format('opentype'); }
-@font-face { font-family: 'fira-sans-regular'; 			src: url('../fonts/FiraSans-Regular.otf')		format('opentype'); }
+@font-face { font-family: 'fira-sans-semi-bold'; 			src: url('../fonts/FiraSans-SemiBold.otf')		format('opentype'); }
+@font-face { font-family: 'fira-sans-light'; 				src: url('../fonts/FiraSans-Light.otf')			format('opentype'); }
+@font-face { font-family: 'fira-sans-regular'; 				src: url('../fonts/FiraSans-Regular.otf')		format('opentype'); }
 
 
-@font-face { font-family: 'source-code-pro-regular'; 	src: url('../fonts/SourceCodePro-Regular.ttf')	format('truetype'); }
-@font-face { font-family: 'source-code-pro-light'; 		src: url('../fonts/SourceCodePro-Light.ttf')	format('truetype'); }
+@font-face { font-family: 'source-code-pro-regular'; 		src: url('../fonts/SourceCodePro-Regular.ttf')		format('truetype'); }
+@font-face { font-family: 'source-code-pro-light'; 			src: url('../fonts/SourceCodePro-Light.ttf')		format('truetype'); }
+@font-face { font-family: 'source-code-pro-extra-light'; 	src: url('../fonts/SourceCodePro-ExtraLight.ttf')	format('truetype'); }
 
 
 
@@ -220,7 +221,7 @@ button::-moz-focus-inner {
 }
 
 h1 {
-	font-family:			source-code-pro-light, monospace;
+	font-family:			source-code-pro-extra-light, monospace;
 	color:					#1922fb;
 	text-align:				center;
 	font-size:				1.6rem;
