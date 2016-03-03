@@ -529,8 +529,8 @@ em {
 	border:					none;
 	background:				transparent;
 	color:					#000;
-	padding:				0.357em 0.4285rem;
 	font-size:				1em;
+	padding:				0.25em 3rem;
 	line-height:			1.4em;
 	height:					1.4em;
 	font-family:			source-code-pro-regular;
@@ -540,7 +540,7 @@ em {
 	font-size:				0.7em;
 	line-height:			2em;
 	height:					2em;
-	padding:				0.25em 3rem;
+	padding:				0.357em 0.4285rem;
 }
 
 
