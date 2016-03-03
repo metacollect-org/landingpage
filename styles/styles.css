@@ -525,8 +525,8 @@ em {
 #search-bar input{
 	display:				inline-block;
 	margin:					auto;
-	width:					22rem;
 	border:					none;
+	width:					34rem;
 	background:				transparent;
 	color:					#000;
 	font-size:				1em;
@@ -540,7 +540,7 @@ em {
 	font-size:				0.7em;
 	line-height:			2em;
 	height:					2em;
-	padding:				0.357em 0.4285rem;
+	width:					22rem;
 }
 
 
