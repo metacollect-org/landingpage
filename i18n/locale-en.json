@@ -3,17 +3,13 @@
 
 		"NAV":	{
 
-			"BENEFITS":			"Benefits",
 			"VISION":			"Vision",
-			"ASSOCIATES":		"Associates",
+			"INTERACTION":		"Interaktion",
+			"BENEFITS":			"Vorteile",
+			"ASSOCIATES":		"Partner",
 			"TEAM":				"Team",
-			"CONTACT":			"Contact"
+			"CONTACT":			"Kontakt"
 		}
-	},
-
-	"FOOTER": {
-
-		"IMPRESSUM":			"Imprint"
 	},
 
 
@@ -21,7 +17,7 @@
 		"HEADING":				"metacollect ist ein Open Data Service, der aktuelle Informationen über zivilgesellschaftliche Projekte sammelt und bereitstellt.",
 		"SEARCH": {
 			"PLACEHOLDER":		"Ist mein Projekt bei metacollect?",
-			"NO_MATCHES:":		"Es wurden kene Einträge gefunden.",
+			"NO_MATCHES":		"Es wurden kene Einträge gefunden.",
 			"REGISTER":			"Jetzt anmelden"
 		}
 	},
@@ -50,34 +46,52 @@
 		"PARAGRAPH_2":			"Consequodis et que doles et aped que et omnimin ctiatem quatem rera voluptamet ab iunt. Osapide nimintio. Itatat aut enia am ea cupitis conetusciae veritadi doluptasi renientorro cone dis acest parcim earibus verum et expella borestorit, quis quam eatate ea consequ odicit rehenis sitatem hillab ipsaectasi commo modionet volor sit velit poribea tiatem quiam audamet minis sus, senti"
 	},
 
-	
 	"BENEFITS": {
 
-		"HEADING":				"Your advantages with <strong>us</strong>",
-		"LINE_1":				"<strong>Provide information</strong> about your project",
-		"LINE_2":				"Share your <strong>needs for your project</strong>",
-		"LINE_3":				"Keep your <strong>data</strong> up to date!",
-		"LINE_4":				"<strong>Integrate</strong> all data!",
-		"LINE_5":				"Use a standard <strong>interface</strong>!",
-		"LINE_6":				"Focus on the key aspects of <strong>your platform</strong>!"
+		"HEADING":				"Vorteile",
+		"LINE_1":				"Als <em>Projektinitiative</em> informierst Du über Dein Projekt und kommunizierst deinen eigenen Bedarf. ",
+		"LINE_2":				"Dein Eintrag wird automatisch ber die Veröffentlichung auf unterschiedlichen Projektübersichtsplattformen multipliziert.",
+		"LINE_3":				"Du hälst deine Daten an einem zentralen Ort aktuell, behälst die Kontrolle über sie und konzentrierst Dich auf Deine tägliche Arbeit.",
+		"LINE_4":				"Als <em>Projektübersichtsplattform</em> integrierst Du ständig aktuelle Daten, indem Du einmalig eine einheitliche Schnittstelle einrichtest.",
+		"LINE_5":				"So kannst Du Dich auf den thematischen Schwerpunkt Deiner Plattform konzentrieren.",
+		"LINE_6":				""
 	},
-	
+
 
 	"ASSOCIATES": {
-		"HEADING":				"Our existent <strong>partnerships</strong>",
-		"PARAGRAPH_1":			"<strong>RefugeeBoard</strong> is an online platform which offers a general view over current projects, contact persons, helpful links and addresses around the topic \"Arriving in Germany\" and likewise enables help seekers and helpers to get in contact fast and directly.",
-		"PARAGRAPH_2":			"<strong>InfoCompass</strong> an information and communication platform for refugees and asylum seekers and their supporters in Berlin. The aim of the platform is to provide multi-language information and services for refugees and helpers online and on-site at refugee shelters. On this way, the different target groups should be reached more effectively."
+
+		"HEADING":				"Unsere Bestehenden <strong>Partnerschaften</strong>",
+		"PARAGRAPH_1":			"<strong>RefugeeBoard</strong> ist eine Online-Plattform, die einen Überblick über aktuelle Projekte bietet, Ansprechpartner, hilfreiche Links und Adressen rund um das Thema \"Ankunft in Deutschland\" versammelt und es Hilfesuchenden und Helfern gleichermaßen ermöglicht schnell und direkt in Kontakt zu treten.",
+		"PARAGRAPH_2":			"<strong>InfoCompass</strong> ist eine Informations- und Kommunikationsplattform für Geflüchtete und Asylsuchende Menschen und Unerstützer in Berlin. Ziel der Plattform ist es, Informationen und Angebote für Geflüchtete und Helfer merhsprachig um Internet aber auch vor Ort in den Unterkünften zur Verfügung zu stellen. Die unterschiedlichen Zielgruppen sollem so wirkungsvoller erreicht werden können."
+	},
+
+	"INTERFACE": {
+		"HEADING":				"Schnittstelle (API)",
+		"PARAGRAPH_1":			"Beschreibung der API – ausführlich, technisch und wie auch immer.... Moritz macht das gern! :)",
+		"PARAGRAPH_2":			"Bitte nicht die Lizenz vergessen! Postruni hicibultus dem aut L. Nihilis huiditum utu culocautem tem tum. Senatil vi vivermis, Catis int. C. Sere nerditi se fue nos perfeculatus et der adhuid re tanum aut atus publi facercere, nitebussi con tur. An dit, cavere, quam dem tam serorbisse prio ponduci amperbi pereisquium vere, quonsullem, ca venit? Nam. Oritum mere, num estrunc in Etraequ idemorte consuppl. Sp. Haberterorei conum const vivatem quis",
+		"PARAGRAPH_3":			""
 	},
 
 	"TEAM": {
-		"HEADING":				"Our <strong>team</strong>",
-		"PARAGRAPH_1":			"meta<strong>collect</strong> came to existence at the <strong>»Refugee Hackathon« in October 2015</strong> in Berlin is further developed in cooperation with existent overview and networking platforms. The team consists, amongst others, of Moritz, Ulrike, Markus, Britta, Stefan, Jan, Michael, Martin, John, Dandy, Steffen, Finn, Willi, Oli and Christian."
+		"HEADING":				"Team",
+		"PARAGRAPH_1":			"metacollect ist auf dem Berliner »Refugee Hackathon« im Oktober 2015 als „MeatBrain“ entstanden und wird in Zusammenarbeit mit existierenden Online-Vernetzungs- und Übersichtsplattformen weiterentwickelt.",
+		"PARAGRAPH_2":			"Das Kernteam besteht aus Martin Abrahamowicz, Moritz Beber, Dandy Budach, Markus Dölle, Stefan Göllner, Martin Görendt, Louisa Hoffmann, Britta Liermann, Jan Lindenberg, Jens Meiners, Andreas Pittrich, Marius Schulz, Ulrike Thalheim, Maxi Thrum, Robert Willemelis.",
+		"PARAGRAPH_3":			"Unterstützt werden und wurden wir von Steffen Niemann, Finn Malte Hinrichsen, Hannes, Moritz Peukert, Luise Lange, Patrick Reuter, Apurva Lapalikar, Carlo Strachwitz, David Tilcher, Rianna Mett, Katharina Dermühl, Christian Knebel, Oli, Michael Sprauer."	
+	},
+
+	"PRESS": {
+		"HEADING":				"Presse",
+		"PARAGRAPH_1":			"Presseanfragen bitte an:"
 	},
 
 	"CONTACT": {
-		"HEADING:":				"Contact <strong>ous</strong>",
-		"MAIL":					"<i class =\"fa fa-envelope\"></i> e-mail: <a href=\"mailto:{{address}}\">{{address}}</a>",
-		"GITHUB":				"<i class =\"fa fa-github\"></i> <a href =\"{{address}}\">Project at github</a>"
-	}
+		"HEADING":				"Kontakt",
+		"PARAGRAPH_1":			"Aufruf zur Unterstüzung <br/> des metacollects!"
+	},
 
+	"FOOTER": {
+
+		"IMPRESS":				"Impressum",
+		"PARAGRAPH_1":			"metacollect ist ein Projekt des Social Collective Berlin, einem Verein zur Vernetzung von Projekten der Flüchtlings- und Integrationshilfe."
+	}
 }
