@@ -89,9 +89,9 @@ metaCollect.run([
 
 		$document.on('scroll', function(){
 			window.requestAnimationFrame(function(){
-				var padding_top	= parseInt(getComputedStyle(body[0]).getPropertyValue('padding-top'))
+				var rem = parseInt(getComputedStyle(html[0]).getPropertyValue('font-size'))
 
-				header.toggleClass('slim', padding_top + document.body.getBoundingClientRect().top < 0)
+				header.toggleClass('slim', 4*rem + document.body.getBoundingClientRect().top < 0)
 			})
 		})
 
