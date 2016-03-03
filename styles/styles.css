@@ -742,3 +742,16 @@ em {
 .narrow #contact-links {
 	font-size:			2rem;
 }
+
+
+
+.logo {
+	display:			inline-block;
+	width:				6rem;
+	height:				6rem;
+	background-size:	contain;
+	background-position:50% 50%;
+	background-repeat:	no-repeat;
+	margin:				0 1rem;
+	vertical-align:		middle;
+}
