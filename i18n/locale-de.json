@@ -3,47 +3,60 @@
 
 		"NAV":	{
 
-			"BENEFITS":			"Vorteile",
 			"VISION":			"Vision",
+			"INTERACTION":		"Interaktion",
+			"BENEFITS":			"Vorteile",
 			"ASSOCIATES":		"Partner",
 			"TEAM":				"Team",
 			"CONTACT":			"Kontakt"
 		}
 	},
 
-	"FOOTER": {
-
-		"IMPRESSUM":			"Impressum"
-
-	},
-
 
 	"DATABASE": {
-		"HEADING":	{
+		"HEADING":				"metacollect ist ein Open Data Service, der aktuelle Informationen über zivilgesellschaftliche Projekte sammelt und bereitstellt.",
+		"SEARCH": {
+			"PLACEHOLDER":		"Ist mein Projekt bei metacollect?",
+			"NO_MATCHES":		"Es wurden kene Einträge gefunden.",
+			"REGISTER":			"Jetzt anmelden"
+		}
+	},
 
-			"LINE_1":			"Hier finden Sie in Kürze <strong>unsere</strong>",
-			"LINE_2":			"Datenbank für Refugee Initiativen"
+	"INTERACTION": {
+		"HEADING":				"Interaktion",
+		"PART_1": {
+			"HEADING":			"Daten finden",
+			"PARAGRAPH":		"Unsere Datenbank erlaubt eine flexible Stichwortsuche über alle Stammdaten, z.B., Projektname, -beschreibung,-Verantwortliche und alle weiteren Inhalte. Außerdem kann die Verschlagwortung der Projekte deine Suche präzisieren."
 		},
-		"LINE_1":				"Daten verwalten",
-		"LINE_2":				"Daten finden",
-		"LINE_3":				"Daten einbinden"
+
+		"PART_2": {
+			"HEADING":			"Daten verwalten",
+			"PARAGRAPH":		"Falls sich dein Projekt in unserer Datenbank befindet, kannst du Kontakt mit uns aufnehmen und natürlich vollständig über deine Informationen verfügen. Die Aktualität deiner Daten ist damit auf allen unserer Partnerplattformen gewährleistet. Sollte dein Projekt noch nicht vertreten sein, kannst du es sofort anlegen."
+		},
+
+		"PART_3": {
+			"HEADING":			"Daten einbinden",
+			"PARAGRAPH":		"Du möchtest auf unsere umfangreiche Datensammlung zugreifen und mit deinem speziellen Fokus präsentieren? Dann nutze unsere offene Schnittstelle. Du kannst dich über die technischen Details informieren (link) und uns jederzeit wissen lassen, falls der Schnittstelle Funktionalität fehlt, die dir wichtig ist. Natürlich kannst du auch selbst unser Open Source Projekt nutzen, um neue Funktionenhinzuzufügen."
+		}
+	},
+
+	"VISION": {
+		"HEADING":				"Vision",
+		"PARAGRAPH_1":			"Unser Ziel ist die langfristiger Stärkung aller Akteure durch die Schaffung einer einheitlichen Schnittstelle.",
+		"PARAGRAPH_2":			"Consequodis et que doles et aped que et omnimin ctiatem quatem rera voluptamet ab iunt. Osapide nimintio. Itatat aut enia am ea cupitis conetusciae veritadi doluptasi renientorro cone dis acest parcim earibus verum et expella borestorit, quis quam eatate ea consequ odicit rehenis sitatem hillab ipsaectasi commo modionet volor sit velit poribea tiatem quiam audamet minis sus, senti"
 	},
 
 	"BENEFITS": {
 
-		"HEADING":				"Deine Vorteile bei <strong>Uns</strong>",
-		"LINE_1":				"<strong>Informiere</strong> über dein Projekt",
-		"LINE_2":				"Teil den <strong>Bedarf Deines Projekts</strong>",
-		"LINE_3":				"Halte Deine <strong>Daten</strong> aktuell!",
-		"LINE_4":				"<strong>Integriere</strong> alle Daten!",
-		"LINE_5":				"Nutze eine einheitliche <strong>Schnittstelle</strong>!",
-		"LINE_6":				"Konzentiere Dich auf den Schwerpunkt <strong>Deiner Plattform</strong>!"
+		"HEADING":				"Vorteile",
+		"LINE_1":				"Als <em>Projektinitiative</em> informierst Du über Dein Projekt und kommunizierst deinen eigenen Bedarf. ",
+		"LINE_2":				"Dein Eintrag wird automatisch ber die Veröffentlichung auf unterschiedlichen Projektübersichtsplattformen multipliziert.",
+		"LINE_3":				"Du hälst deine Daten an einem zentralen Ort aktuell, behälst die Kontrolle über sie und konzentrierst Dich auf Deine tägliche Arbeit.",
+		"LINE_4":				"Als <em>Projektübersichtsplattform</em> integrierst Du ständig aktuelle Daten, indem Du einmalig eine einheitliche Schnittstelle einrichtest.",
+		"LINE_5":				"So kannst Du Dich auf den thematischen Schwerpunkt Deiner Plattform konzentrieren.",
+		"LINE_6":				""
 	},
 
-	"VISION": {
-		"HEADING":				"Unsere <strong>Vision</strong>",
-		"PARAGRAPH_1":			"meta<strong>collect</strong> ist ein <strong>Open Data Service</strong>, der aktuelle Informationen über zivilgesellschaftliche Projekte sammelt und bereitstellt!<br/> Unser Ziel ist die langfristige <strong>Stärkung aller Akteure</strong> durch die Schaffung einer <strong>einheitlichen Schnittstelle</strong>"
-	},
 
 	"ASSOCIATES": {
 
@@ -52,14 +65,33 @@
 		"PARAGRAPH_2":			"<strong>InfoCompass</strong> ist eine Informations- und Kommunikationsplattform für Geflüchtete und Asylsuchende Menschen und Unerstützer in Berlin. Ziel der Plattform ist es, Informationen und Angebote für Geflüchtete und Helfer merhsprachig um Internet aber auch vor Ort in den Unterkünften zur Verfügung zu stellen. Die unterschiedlichen Zielgruppen sollem so wirkungsvoller erreicht werden können."
 	},
 
+	"INTERFACE": {
+		"HEADING":				"Schnittstelle (API)",
+		"PARAGRAPH_1":			"Beschreibung der API – ausführlich, technisch und wie auch immer.... Moritz macht das gern! :)",
+		"PARAGRAPH_2":			"Bitte nicht die Lizenz vergessen! Postruni hicibultus dem aut L. Nihilis huiditum utu culocautem tem tum. Senatil vi vivermis, Catis int. C. Sere nerditi se fue nos perfeculatus et der adhuid re tanum aut atus publi facercere, nitebussi con tur. An dit, cavere, quam dem tam serorbisse prio ponduci amperbi pereisquium vere, quonsullem, ca venit? Nam. Oritum mere, num estrunc in Etraequ idemorte consuppl. Sp. Haberterorei conum const vivatem quis",
+		"PARAGRAPH_3":			""
+	},
+
 	"TEAM": {
-		"HEADING":				"Unser <strong>Team</strong>",
-		"PARAGRAPH_1":			"meta<strong>collect</strong> ist auf dem <strong>»Refugee Hackathon« im Oktober 2015</strong> in Berlin entstanden und wird in Zusammenarbeit mit existierenden Vernetzungs- und Übersichtsplattformen weiterentwicklet. Das Team besteht unter anderem aus Moritz, Ulrike, Markus, Britta, Stefan, Jan, Michael, Martin, John, Dandy, Steffen, Finn, Willi, Oli und Christian."
+		"HEADING":				"Team",
+		"PARAGRAPH_1":			"metacollect ist auf dem Berliner »Refugee Hackathon« im Oktober 2015 als „MeatBrain“ entstanden und wird in Zusammenarbeit mit existierenden Online-Vernetzungs- und Übersichtsplattformen weiterentwickelt.",
+		"PARAGRAPH_2":			"Das Kernteam besteht aus Martin Abrahamowicz, Moritz Beber, Dandy Budach, Markus Dölle, Stefan Göllner, Martin Görendt, Louisa Hoffmann, Britta Liermann, Jan Lindenberg, Jens Meiners, Andreas Pittrich, Marius Schulz, Ulrike Thalheim, Maxi Thrum, Robert Willemelis.",
+		"PARAGRAPH_3":			"Unterstützt werden und wurden wir von Steffen Niemann, Finn Malte Hinrichsen, Hannes, Moritz Peukert, Luise Lange, Patrick Reuter, Apurva Lapalikar, Carlo Strachwitz, David Tilcher, Rianna Mett, Katharina Dermühl, Christian Knebel, Oli, Michael Sprauer."	
+	},
+
+	"PRESS": {
+		"HEADING":				"Presse",
+		"PARAGRAPH_1":			"Presseanfragen bitte an:"
 	},
 
 	"CONTACT": {
-		"HEADING:":				"Kontaktieren Sie <strong>Uns</strong>",
-		"MAIL":					"<i class =\"fa fa-envelope\"></i> E-Mail: <a href=\"mailto:{{address}}\">{{address}}</a>",
-		"GITHUB":				"<i class =\"fa fa-github\"></i> <a href =\"{{address}}\">Projekt bei github</a>"
+		"HEADING":				"Kontakt",
+		"PARAGRAPH_1":			"Aufruf zur Unterstüzung <br/> des metacollects!"
+	},
+
+	"FOOTER": {
+
+		"IMPRESS":				"Impressum",
+		"PARAGRAPH_1":			"metacollect ist ein Projekt des Social Collective Berlin, einem Verein zur Vernetzung von Projekten der Flüchtlings- und Integrationshilfe."
 	}
 }

@@ -28,10 +28,8 @@
 
 		<header class ="bgc-3">
 
-			<hgroup id ="metacollect">
-				<h1>meta<strong>collect</strong></h1>
-				<h2>open database for refugee projects</h2>
-			</hgroup>
+			<div id ="metacollect"></div>
+				
 
 			<button 
 				id = "scroll-top"
@@ -47,8 +45,9 @@
 			</button>
 
 			<nav>
-				<a smooth-scroll target="benefits">		{{'HEADER.NAV.BENEFITS' 	| translate}}	</a>
 				<a smooth-scroll target="vision">		{{'HEADER.NAV.VISION' 		| translate}}	</a>
+				<a smooth-scroll target="interaction">	{{'HEADER.NAV.INTERACTION' 	| translate}}	</a>
+				<a smooth-scroll target="benefits">		{{'HEADER.NAV.BENEFITS' 	| translate}}	</a>
 				<a smooth-scroll target="associates">	{{'HEADER.NAV.ASSOCIATES' 	| translate}}	</a>
 				<a smooth-scroll target="team">			{{'HEADER.NAV.TEAM' 		| translate}}	</a>
 				<a smooth-scroll target="contact">		{{'HEADER.NAV.CONTACT' 		| translate}}	</a>
@@ -60,10 +59,10 @@
 		<section ng-view>
 		</section>
 
-		<footer class ="bgc-4">
-			<a href="">{{FOOTER.IMPRESSUM | translate}}</a>
+		<footer class ="bgc-2">
+			<a href="" translate ="FOOTER.IMPRESS"></a>
+			<p translate="FOOTER.PARAGRAPH_1"></p>
 		</footer>
-
 
 	</body>
 </html>

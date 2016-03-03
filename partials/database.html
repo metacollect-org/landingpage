@@ -1,25 +1,43 @@
 <hgroup>
-	<h3 translate = "DATABASE.HEADING.LINE_1"></h3>
-	<h2>{{"DATABASE.HEADING.LINE_2" | translate}}</h2>
+	<h1 translate = "DATABASE.HEADING"></h2>
 </hgroup>
 
 <article ng-controller = "MetaSearchCtrl" id = "search">
-	<input 
-		type				= "text"
-		ng-model 			= "search"
-		ng-model-options	= "{ debounce: 1000 }"
-	>
-	</input>
+
+
+	<div id = "search-bar">
+		<form ng-submit = "getData()">
+			<i class ="fa fa-search"></i>
+			<input 
+				type				= "text"
+				ng-model 			= "search"
+				placeholder			= "{{ 'DATABASE.SEARCH.PLACEHOLDER' | translate }}"
+			>
+			</input>
+			<i 
+				class 		= "fa fa-chevron-right"
+				ng-click 	= "getData()"
+			></i>
+		</form>
+	</div>
 
 	<div class = "results" ng-show = "data">
 		<div class ="controls">
-			<button ng-click = "search = undefined">
+			<button ng-click = "data = undefined">
 				<i class ="fa fa-times"></i>
 			</button>
 		</div>
 		<ul>
 			<li ng-show = "data === true" class ="searching"><div class ="spinner"><div></div> <div></div> <div></div> <div></div> <div></div> <div></div> <div></div> <div></div> <div></div></li>
-			<li ng-show = "data && data.length == 0" class ="no-matches">no matches</li>
+			<li ng-show = "data && data.length == 0" class ="no-matches"> 
+				<span translate = "DATABASE.SEARCH.NO_MATCHES"> </span>
+				<br/>
+				<a 
+					href 		= "http://django.dsini20.schedar.uberspace.de/mainApp/accounts/register/"
+					translate 	= "DATABASE.SEARCH.REGISTER"
+				>
+				</a>
+			</li>
 			<li ng-repeat = "item in data | limitTo:10">
 				<span class ="logo" style ="background-image: url('{{item.logo}}')"></span><!--
 			--><span class ="title"><a href ="http://django.dsini20.schedar.uberspace.de/mainApp/{{item.id}}/">{{item.title | htmlToPlaintext}}</a></span>
@@ -36,29 +54,3 @@
 	</div>
 </articlle>
 
-<div class = "col-3">
-	<article 
-		class 		= "icon-above-text"
-		style 		= "background-image:url('images/dummy.png')"
-	>
-		<p translate = "DATABASE.LINE_1"></p>
-	</article><!--
- --><article 
-		class = "icon-above-text"
-		style = "background-image:url('')"
-	>
-
-		<i class = "fa fa-warning"></i>
-		<p translate = "DATABASE.LINE_2"></p>
-
-	</article><!--
- --><article 
-		class = "icon-above-text"
-		style = "background-image:url('')"
-	>
-
-		<i class = "fa fa-warning"></i>
-		<p translate = "DATABASE.LINE_3"></p>
-
-	</article>
-</div>

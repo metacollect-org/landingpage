@@ -10,12 +10,10 @@ angular.module('mcControllers', [])
 		$scope.search 	= ''
 
 
-		$scope.getData = function(search){
-			$scope.data = undefined
+		$scope.getData = function(){
 
-			search = search.replace(/[^a-zA-Z0-9 ]/g, " ")
+			var search = $scope.search.replace(/[^a-zA-Z0-9 ]/g, " ")
 
-			if(search.length <=3) return null
 			$scope.data = true
 
 			var long_search = (" "+search).replace(/\s+/g,"&title*icontains=")
@@ -30,7 +28,5 @@ angular.module('mcControllers', [])
 				}
 			)
 		}
-
-		$scope.$watch('search', $scope.getData)
 	}
 ])
