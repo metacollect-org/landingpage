@@ -17,7 +17,7 @@
 		"HEADING":				"metacollect ist ein Open Data Service, der aktuelle Informationen über zivilgesellschaftliche Projekte sammelt und bereitstellt.",
 		"SEARCH": {
 			"PLACEHOLDER":		"Ist mein Projekt bei metacollect?",
-			"NO_MATCHES":		"Es wurden kene Einträge gefunden.",
+			"NO_MATCHES":		"Es wurden keine Einträge gefunden.",
 			"REGISTER":			"Jetzt anmelden"
 		}
 	},
