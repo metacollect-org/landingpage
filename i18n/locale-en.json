@@ -4,28 +4,28 @@
 		"NAV":	{
 
 			"VISION":			"Vision",
-			"INTERACTION":		"Interaktion",
-			"BENEFITS":			"Vorteile",
-			"ASSOCIATES":		"Partner",
+			"INTERACTION":		"Engage",
+			"BENEFITS":			"Advantages",
+			"ASSOCIATES":		"Partners",
 			"TEAM":				"Team",
-			"CONTACT":			"Kontakt"
+			"CONTACT":			"Contact"
 		}
 	},
 
 
 	"DATABASE": {
-		"HEADING":				"metacollect ist ein Open Data Service, der aktuelle Informationen über zivilgesellschaftliche Projekte sammelt und bereitstellt.",
+		"HEADING":				"metacollect is an open data service that provides up-to-date information about civil society projects.",
 		"SEARCH": {
-			"PLACEHOLDER":		"Ist mein Projekt bei metacollect?",
-			"NO_MATCHES":		"Es wurden kene Einträge gefunden.",
-			"REGISTER":			"Jetzt anmelden"
+			"PLACEHOLDER":		"Is my project with metacollect?",
+			"NO_MATCHES":		"No results found.",
+			"REGISTER":			"Enter your information now."
 		}
 	},
 
 	"INTERACTION": {
-		"HEADING":				"Interaktion",
+		"HEADING":				"Engage",
 		"PART_1": {
-			"HEADING":			"Daten finden",
+			"HEADING":			"Find data",
 			"PARAGRAPH":		"Unsere Datenbank erlaubt eine flexible Stichwortsuche über alle Stammdaten, z.B., Projektname, -beschreibung,-Verantwortliche und alle weiteren Inhalte. Außerdem kann die Verschlagwortung der Projekte deine Suche präzisieren."
 		},
 
