@@ -66,8 +66,8 @@
 
 	"INTERFACE": {
 		"HEADING":				"Schnittstelle (API)",
-		"PARAGRAPH_1":			"Beschreibung der API – ausführlich, technisch und wie auch immer.... Moritz macht das gern! :)",
-		"PARAGRAPH_2":			"Bitte nicht die Lizenz vergessen! Postruni hicibultus dem aut L. Nihilis huiditum utu culocautem tem tum. Senatil vi vivermis, Catis int. C. Sere nerditi se fue nos perfeculatus et der adhuid re tanum aut atus publi facercere, nitebussi con tur. An dit, cavere, quam dem tam serorbisse prio ponduci amperbi pereisquium vere, quonsullem, ca venit? Nam. Oritum mere, num estrunc in Etraequ idemorte consuppl. Sp. Haberterorei conum const vivatem quis",
+		"PARAGRAPH_1":			"Wir benutzen ein Django backend, über das Informationen per JSON, YAML oder XML übermittelt werden können. Die Details der API könnt ihr in <a href="https://github.com/JensMeiners/Meta-search/blob/master/API.md" target="_blank">diesem Dokument</a> nachlesen. Falls ihr Unterstützung bei der Umsetzung möchtet, oder Verbesserungsvorschläge habt, <a href="mailto:develop@metacollect.org">kontaktiert bitte unser Entwicklerteam</a>.",
+		"PARAGRAPH_2":			"Die Daten werden unter der Open Database Lizenz veröffentlicht, die Bedingungen dieser Lizenz sind im <a href="http://opendatacommons.org/licenses/odbl/summary/" target="_blank">folgenden Dokument verständlich erklärt</a>.",
 		"PARAGRAPH_3":			""
 	},
 
