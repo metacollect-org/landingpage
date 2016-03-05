@@ -25,25 +25,25 @@
 	"INTERACTION": {
 		"HEADING":				"Engage",
 		"PART_1": {
-			"HEADING":			"Find data",
-			"PARAGRAPH":		"Unsere Datenbank erlaubt eine flexible Stichwortsuche über alle Stammdaten, z.B., Projektname, -beschreibung,-Verantwortliche und alle weiteren Inhalte. Außerdem kann die Verschlagwortung der Projekte deine Suche präzisieren."
+			"HEADING":			"Find",
+			"PARAGRAPH":		"Our database provides a flexible fulltext search over all project metadata, the project's description, contact person, address and many more fields. Results can be further filtered by project categories."
 		},
 
 		"PART_2": {
-			"HEADING":			"Daten verwalten",
-			"PARAGRAPH":		"Falls sich dein Projekt in unserer Datenbank befindet, kannst du Kontakt mit uns aufnehmen und natürlich vollständig über deine Informationen verfügen. Die Aktualität deiner Daten ist damit auf allen unserer Partnerplattformen gewährleistet. Sollte dein Projekt noch nicht vertreten sein, kannst du es sofort anlegen."
+			"HEADING":			"Manage",
+			"PARAGRAPH":		"If your project information was already entered by our editors, sign up for an account and take charge of your information. Any updates you make will immediately be visible on all partner platforms. If your project is unknown to us thus far, please sign up and create a profile."
 		},
 
 		"PART_3": {
-			"HEADING":			"Daten einbinden",
-			"PARAGRAPH":		"Du möchtest auf unsere umfangreiche Datensammlung zugreifen und mit deinem speziellen Fokus präsentieren? Dann nutze unsere offene Schnittstelle. Du kannst dich über die technischen Details informieren (link) und uns jederzeit wissen lassen, falls der Schnittstelle Funktionalität fehlt, die dir wichtig ist. Natürlich kannst du auch selbst unser Open Source Projekt nutzen, um neue Funktionenhinzuzufügen."
+			"HEADING":			"Integrate",
+			"PARAGRAPH":		"Are you interested in a comprehensive data repository of refugee project metadata? Connect to our open API and freely use all the information and present them with your particular focus. Please read the details of how to consume our API and don't hesitate to get in touch if you would like to discuss our data model or talk about how we can adapt the interface to serve your needs. Our software is open source, too, so of course you can work on changes as well!"
 		}
 	},
 
 	"VISION": {
 		"HEADING":				"Vision",
-		"PARAGRAPH_1":			"Unser Ziel ist die langfristiger Stärkung aller Akteure durch die Schaffung einer einheitlichen Schnittstelle.",
-		"PARAGRAPH_2":			"Consequodis et que doles et aped que et omnimin ctiatem quatem rera voluptamet ab iunt. Osapide nimintio. Itatat aut enia am ea cupitis conetusciae veritadi doluptasi renientorro cone dis acest parcim earibus verum et expella borestorit, quis quam eatate ea consequ odicit rehenis sitatem hillab ipsaectasi commo modionet volor sit velit poribea tiatem quiam audamet minis sus, senti"
+		"PARAGRAPH_1":			"We want to strengthen all players in the refugee sector by providing a central repository of information that can reveal synergies between formerly disparate projects and allows everyone to cearly communicate their needs in terms of project support. This is a community effort that grows in power the more stakeholders partake.",
+		"PARAGRAPH_2":			""
 	},
 
 	"BENEFITS": {
@@ -66,9 +66,9 @@
 	},
 
 	"INTERFACE": {
-		"HEADING":				"Schnittstelle (API)",
-		"PARAGRAPH_1":			"Beschreibung der API – ausführlich, technisch und wie auch immer.... Moritz macht das gern! :)",
-		"PARAGRAPH_2":			"Bitte nicht die Lizenz vergessen! Postruni hicibultus dem aut L. Nihilis huiditum utu culocautem tem tum. Senatil vi vivermis, Catis int. C. Sere nerditi se fue nos perfeculatus et der adhuid re tanum aut atus publi facercere, nitebussi con tur. An dit, cavere, quam dem tam serorbisse prio ponduci amperbi pereisquium vere, quonsullem, ca venit? Nam. Oritum mere, num estrunc in Etraequ idemorte consuppl. Sp. Haberterorei conum const vivatem quis",
+		"HEADING":				"Interface (API)",
+		"PARAGRAPH_1":			"We have implemented an API using the Django framework that can communicate via JSON, YAML, or XML. The details can be found in the <a href="https://github.com/JensMeiners/Meta-search/blob/master/API.md" target="_blank">following document</a>. If you need support implementing the API for your site or want to make suggestions to improve the API, please <a href="mailto:develop@metacollect.org">contact our team of developers</a>.",
+		"PARAGRAPH_2":			"The data are distributed under the Open Database License whose terms and conditions are explained in an understandable manner in the <a href="http://opendatacommons.org/licenses/odbl/summary/" target="_blank">following document</a>.",
 		"PARAGRAPH_3":			""
 	},
 
