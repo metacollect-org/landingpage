@@ -49,11 +49,11 @@
 	"BENEFITS": {
 
 		"HEADING":				"Vorteile",
-		"LINE_1":				"Als <em>Projektinitiative</em> informierst Du über Dein Projekt und kommunizierst deinen eigenen Bedarf. ",
-		"LINE_2":				"Dein Eintrag wird automatisch ber die Veröffentlichung auf unterschiedlichen Projektübersichtsplattformen multipliziert.",
-		"LINE_3":				"Du hälst deine Daten an einem zentralen Ort aktuell, behälst die Kontrolle über sie und konzentrierst Dich auf Deine tägliche Arbeit.",
-		"LINE_4":				"Als <em>Projektübersichtsplattform</em> integrierst Du ständig aktuelle Daten, indem Du einmalig eine einheitliche Schnittstelle einrichtest.",
-		"LINE_5":				"So kannst Du Dich auf den thematischen Schwerpunkt Deiner Plattform konzentrieren.",
+		"LINE_1":				"As a <em>project or initiative</em>, you are in full control of your data. You can manage your information and indicate your needs in one place. From there your current data is automatically spread to connected platforms giving your project high visibility. This means, you only need to communicate changes to your information once and dedicate most of your time to what you do best.",
+		"LINE_2":				"",
+		"LINE_3":				"",
+		"LINE_4":				"By connecting to our interface (API), your <em>platform</em> gains access to a large repository of up-to-date, categorized project data. You can stop the burdensome task of researching information and instead focus on presenting the data in your way.",
+		"LINE_5":				"",
 		"LINE_6":				""
 	},
 
