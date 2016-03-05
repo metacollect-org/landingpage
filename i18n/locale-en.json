@@ -67,8 +67,8 @@
 
 	"INTERFACE": {
 		"HEADING":				"Interface (API)",
-		"PARAGRAPH_1":			"We have implemented an API using the Django framework that can communicate via JSON, YAML, or XML. The details can be found in the <a href="https://github.com/JensMeiners/Meta-search/blob/master/API.md" target="_blank">following document</a>. If you need support implementing the API for your site or want to make suggestions to improve the API, please <a href="mailto:develop@metacollect.org">contact our team of developers</a>.",
-		"PARAGRAPH_2":			"The data are distributed under the Open Database License whose terms and conditions are explained in an understandable manner in the <a href="http://opendatacommons.org/licenses/odbl/summary/" target="_blank">following document</a>.",
+		"PARAGRAPH_1":			"We have implemented an API using the Django framework that can communicate via JSON, YAML, or XML. The details can be found in the <a href=\"https://github.com/JensMeiners/Meta-search/blob/master/API.md\" target=\"_blank\">following document</a>. If you need support implementing the API for your site or want to make suggestions to improve the API, please <a href=\"mailto:develop@metacollect.org\">contact our team of developers</a>.",
+		"PARAGRAPH_2":			"The data are distributed under the Open Database License whose terms and conditions are explained in an understandable manner in the <a href=\"http://opendatacommons.org/licenses/odbl/summary/\" target=\"_blank\">following document</a>.",
 		"PARAGRAPH_3":			""
 	},
 
