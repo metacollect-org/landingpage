@@ -48,7 +48,7 @@
 
 	"BENEFITS": {
 
-		"HEADING":				"Vorteile",
+		"HEADING":				"Advantages",
 		"LINE_1":				"As a <em>project or initiative</em>, you are in full control of your data. You can manage your information and indicate your needs in one place. From there your current data is automatically spread to connected platforms giving your project high visibility. This means, you only need to communicate changes to your information once and dedicate most of your time to what you do best.",
 		"LINE_2":				"",
 		"LINE_3":				"",
@@ -80,16 +80,16 @@
 	},
 
 	"NETWORK": {
-		"HEADING":				"Netzwerk"
+		"HEADING":				"Network"
 	},
 
 	"PRESS": {
-		"HEADING":				"Presse",
+		"HEADING":				"Media",
 		"PARAGRAPH_1":			"Presseanfragen bitte an:"
 	},
 
 	"CONTACT": {
-		"HEADING":				"Kontakt",
+		"HEADING":				"Contact",
 		"PARAGRAPH_1":			"Aufruf zur Unterstüzung <br/> des metacollects!"
 	},
 
