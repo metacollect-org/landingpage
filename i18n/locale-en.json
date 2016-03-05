@@ -49,20 +49,20 @@
 	"BENEFITS": {
 
 		"HEADING":				"Advantages",
-		"LINE_1":				"As a <em>project initiative</em> you give out information about your project and communicate your needs.",
-		"LINE_2":				"Your entry will be distributed automatically to different overview platforms.",
-		"LINE_3":				"You keep your information up to date in a central location, keep control over them and concentrate on your daily work.",
-		"LINE_4":				"As an <em>overview platform</em> you integrate updated information consecutively by implementing an API once.",
-		"LINE_5":				"This way, you can concentrate on a thematic core area.",
+		"LINE_1":				"As a <em>project or initiative</em>, you are in full control of your data. You can manage your information and indicate your needs in one place. From there your current data is automatically spread to connected platforms giving your project high visibility. This means, you only need to communicate changes to your information once and dedicate most of your time to what you do best.",
+		"LINE_2":				"",
+		"LINE_3":				"",
+		"LINE_4":				"By connecting to our interface (API), your <em>platform</em> gains access to a large repository of up-to-date, categorized project data. You can stop the burdensome task of researching information and instead focus on presenting the data in your way.",
+		"LINE_5":				"",
 		"LINE_6":				""
 	},
 
 
 	"ASSOCIATES": {
 
-		"HEADING":				"Our current <strong>partnerships</strong>",
-		"PARAGRAPH_1":			"<strong>RefugeeBoard</strong> is an Online platform which offers an overview over current projects, contact persons, helpful Links und addresses around the topic \"Arriving in Germany\" and supports support seekers and support offerers to get in contact quick and directly.",
-		"PARAGRAPH_2":			"<strong>InfoCompass</strong> is an information and communication platform for newcomers, refugees and asylum seeking people and supporters in Berlin. Aim of the platform ist to distribute informations and offers for refugees and supporters in multi languages in the internet but also in place in the shelters. This should make reaching out to the different target groups much more effective."
+		"HEADING":				"Unsere Bestehenden <strong>Partnerschaften</strong>",
+		"PARAGRAPH_1":			"<strong>RefugeeBoard</strong> ist eine Online-Plattform, die einen Überblick über aktuelle Projekte bietet, Ansprechpartner, hilfreiche Links und Adressen rund um das Thema \"Ankunft in Deutschland\" versammelt und es Hilfesuchenden und Helfern gleichermaßen ermöglicht schnell und direkt in Kontakt zu treten.",
+		"PARAGRAPH_2":			"<strong>InfoCompass</strong> ist eine Informations- und Kommunikationsplattform für Geflüchtete und Asylsuchende Menschen und Unerstützer in Berlin. Ziel der Plattform ist es, Informationen und Angebote für Geflüchtete und Helfer merhsprachig um Internet aber auch vor Ort in den Unterkünften zur Verfügung zu stellen. Die unterschiedlichen Zielgruppen sollem so wirkungsvoller erreicht werden können."
 	},
 
 	"INTERFACE": {
@@ -74,8 +74,8 @@
 
 	"TEAM": {
 		"HEADING":				"Team",
-		"PARAGRAPH_1":			"metacollect was founded at the Berlin »Refugee Hackathon« in October 2015 as „MeatBrain“ and is making progress in cooperation with existing with Online-networking und overview platforms.",
-		"PARAGRAPH_2":			"The core team consists of Martin Abrahamowicz, Moritz Beber, Dandy Budach, Markus Dölle, Stefan Göllner, Martin Görendt, Louisa Hoffmann, Britta Liermann, Jan Lindenberg, Jens Meiners, Andreas Pittrich, Marius Schulz, Ulrike Thalheim, Maxi Thrum, Robert Willemelis.",
+		"PARAGRAPH_1":			"metacollect was founded at the Berlin »Refugee Hackathon« in October 2015 as „MetaBrain“ and is making progress in cooperation with existing online-networking und overview platforms.",
+		"PARAGRAPH_2":			"The core team members consist of Martin Abrahamowicz, Moritz Beber, Dandy Budach, Markus Dölle, Stefan Göllner, Martin Görendt, Louisa Hoffmann, Britta Liermann, Jan Lindenberg, Jens Meiners, Andreas Pittrich, Marius Schulz, Ulrike Thalheim, Maxi Thrum, Robert Willemelis.",
 		"PARAGRAPH_3":			"We are and were supported by Steffen Niemann, Finn Malte Hinrichsen, Hannes, Moritz Peukert, Luise Lange, Patrick Reuter, Apurva Lapalikar, Carlo Strachwitz, David Tilcher, Rianna Mett, Katharina Dermühl, Christian Knebel, Oli, Michael Sprauer."	
 	},
 
@@ -84,13 +84,13 @@
 	},
 
 	"PRESS": {
-		"HEADING":				"Presse",
-		"PARAGRAPH_1":			"For press requests please contact:"
+		"HEADING":				"Media",
+		"PARAGRAPH_1":			"Contact for media representatives:"
 	},
 
 	"CONTACT": {
 		"HEADING":				"Contact",
-		"PARAGRAPH_1":			"Call for support <br/> of the metacollect!"
+		"PARAGRAPH_1":			"We are looking for support in terms of project management, funding opportunities and connections to projects and platforms."
 	},
 
 	"FOOTER": {
