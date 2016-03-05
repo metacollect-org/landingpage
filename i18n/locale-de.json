@@ -36,7 +36,7 @@
 
 		"PART_3": {
 			"HEADING":			"Daten einbinden",
-			"PARAGRAPH":		"Du möchtest auf unsere umfangreiche Datensammlung zugreifen und mit deinem speziellen Fokus präsentieren? Dann nutze unsere offene Schnittstelle. Du kannst dich über die technischen Details informieren (link) und uns jederzeit wissen lassen, falls der Schnittstelle Funktionalität fehlt, die dir wichtig ist. Natürlich kannst du auch selbst unser Open Source Projekt nutzen, um neue Funktionenhinzuzufügen."
+			"PARAGRAPH":		"Du möchtest auf unsere umfangreiche Datensammlung zugreifen und mit deinem speziellen Fokus präsentieren? Dann nutze unsere offene Schnittstelle. Du kannst dich über die technischen Details informieren und uns jederzeit wissen lassen, falls der Schnittstelle Funktionalität fehlt, die dir wichtig ist. Natürlich kannst du auch selbst unser Open Source Projekt nutzen, um neue Funktionenhinzuzufügen."
 		}
 	},
 
@@ -66,8 +66,8 @@
 
 	"INTERFACE": {
 		"HEADING":				"Schnittstelle (API)",
-		"PARAGRAPH_1":			"Wir benutzen ein Django backend, über das Informationen per JSON, YAML oder XML übermittelt werden können. Die Details der API könnt ihr in <a href="https://github.com/JensMeiners/Meta-search/blob/master/API.md" target="_blank">diesem Dokument</a> nachlesen. Falls ihr Unterstützung bei der Umsetzung möchtet, oder Verbesserungsvorschläge habt, <a href="mailto:develop@metacollect.org">kontaktiert bitte unser Entwicklerteam</a>.",
-		"PARAGRAPH_2":			"Die Daten werden unter der Open Database Lizenz veröffentlicht, die Bedingungen dieser Lizenz sind im <a href="http://opendatacommons.org/licenses/odbl/summary/" target="_blank">folgenden Dokument verständlich erklärt</a>.",
+		"PARAGRAPH_1":			"Wir benutzen ein Django backend, über das Informationen per JSON, YAML oder XML übermittelt werden können. Die Details der API könnt ihr in <a href=\"https://github.com/JensMeiners/Meta-search/blob/master/API.md\" target=\"_blank\">diesem Dokument</a> nachlesen. Falls ihr Unterstützung bei der Umsetzung möchtet, oder Verbesserungsvorschläge habt, <a href=\"mailto:develop@metacollect.org\">kontaktiert bitte unser Entwicklerteam</a>.",
+		"PARAGRAPH_2":			"Die Daten werden unter der Open Database Lizenz veröffentlicht, die Bedingungen dieser Lizenz sind im <a href=\"http://opendatacommons.org/licenses/odbl/summary/\" target=\"_blank\">folgenden Dokument verständlich erklärt</a>.",
 		"PARAGRAPH_3":			""
 	},
 
