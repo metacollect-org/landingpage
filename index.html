@@ -30,6 +30,21 @@
 
 			<div id ="metacollect"></div>
 
+			<button 
+				ng-if		= "narrow"	
+				ng-click 	= "toggleMenu()"
+			>
+				<i class = "fa fa-bars"></i>
+			</button>
+			
+			<button 
+				ng-if		= "!narrow"
+				ng-click 	= "toggleLanguage()">
+				<span ng-class ="{'active': getLanguage() =='de'}">DE</span>
+				/
+				<span ng-class ="{'active': getLanguage() =='en'}">EN</span>
+			</button>
+
 			<button
 				id = "scroll-top"
 				smooth-scroll target = "top"
@@ -37,13 +52,17 @@
 				<i class="fa fa-arrow-circle-up"></i>
 			</button>
 
-			<button ng-click = "toggleLanguage()">
-				<span ng-class ="{'active': getLanguage() =='de'}">DE</span>
-				/
-				<span ng-class ="{'active': getLanguage() =='en'}">EN</span>
-			</button>
 
-			<nav>
+			<nav ng-class = "{'hidden': narrow && !showMenu}">
+				<a
+					class	 = "language"
+					ng-if	 = "narrow"
+					ng-click = "toggleLanguage()"
+				>
+					<span ng-class ="{'active': getLanguage() =='de'}">DE</span>
+					/
+					<span ng-class ="{'active': getLanguage() =='en'}">EN</span>
+				</a>
 				<a smooth-scroll target="vision">		{{'HEADER.NAV.VISION' 		| translate}}	</a>
 				<a smooth-scroll target="interaction">	{{'HEADER.NAV.INTERACTION' 	| translate}}	</a>
 				<a smooth-scroll target="benefits">		{{'HEADER.NAV.BENEFITS' 	| translate}}	</a>

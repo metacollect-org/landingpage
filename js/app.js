@@ -80,6 +80,10 @@ metaCollect.run([
 					:	$translate.use('en')	
 		}
 
+		$rootScope.toggleMenu = function(){
+			$rootScope.showMenu = !$rootScope.showMenu
+		}
+
 
 		//checking if page has scroll far enough to slim down the header:
 
@@ -114,11 +118,14 @@ metaCollect.run([
 
 			if(threshold_px > width){
 				body.addClass('narrow')
+				$rootScope.narrow = true
 				html.css('font-size', (width/narrow_rem) + 'px')
 			} else {
 				body.removeClass('narrow')
+				$rootScope.narrow = false				
 				html.css('font-size', 'inherit')
 			}
+			$rootScope.$apply()
 		}
 		
 		adjustContentWidth()
