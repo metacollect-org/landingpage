@@ -780,4 +780,9 @@ em {
 	background-repeat:	no-repeat;
 	margin:				0 1rem;
 	vertical-align:		middle;
+	text-decoration:	none;
+}
+
+a.logo:hover{
+	cursor:				pointer;
 }
