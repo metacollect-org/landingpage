@@ -130,6 +130,10 @@ header nav a {
 	margin:					0 1rem;
 }
 
+header nav a[href] {
+	text-decoration:		underline;
+}
+
 header nav a:last-child {
 	margin-right:			0;
 }
