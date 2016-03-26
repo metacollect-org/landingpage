@@ -46,6 +46,10 @@
 	color:						#fff;
 }
 
+.bgc-2 a {
+
+}
+
 
 
 .bgc-3 {
@@ -102,6 +106,9 @@ header {
 	transition:				border 300ms, padding 300ms;
 }
 
+a[href]{
+	text-decoration:		underline;
+}
 
 .narrow header {
 	padding-left:			1rem;
@@ -384,13 +391,6 @@ footer > p {
 	margin:					1rem 0;
 }
 
-
-
-
-a:hover {
-	color:					#1922fb;
-}
- 
 
 
 em {
