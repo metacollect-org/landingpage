@@ -181,6 +181,7 @@ header nav a:first-child {
 
 .narrow header nav a:not(.language):hover {
 	background:				#fff;
+	color:					#1922fb;
 }
 
 .narrow header nav a.language {
