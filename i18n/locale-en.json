@@ -51,10 +51,10 @@
 	"BENEFITS": {
 
 		"HEADING":				"Advantages",
-		"LINE_1":				"As a <em>project or initiative</em>, you are in full control of your data. You can manage your information and indicate your needs in one place. From there your current data is automatically spread to connected platforms giving your project high visibility. This means, you only need to communicate changes to your information once and dedicate most of your time to what you do best.",
+		"LINE_1":				"As a <strong>project or initiative</strong>, you are in full control of your data. You can manage your information and indicate your needs in one place. From there your current data is automatically spread to connected platforms giving your project high visibility. This means, you only need to communicate changes to your information once and dedicate most of your time to what you do best.",
 		"LINE_2":				"",
 		"LINE_3":				"",
-		"LINE_4":				"By connecting to our interface (API), your <em>platform</em> gains access to a large repository of up-to-date, categorized project data. You can stop the burdensome task of researching information and instead focus on presenting the data in your way.",
+		"LINE_4":				"By connecting to our interface (API), your <strong>platform</strong> gains access to a large repository of up-to-date, categorized project data. You can stop the burdensome task of researching information and instead focus on presenting the data in your way.",
 		"LINE_5":				"",
 		"LINE_6":				""
 	},
