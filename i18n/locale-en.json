@@ -7,6 +7,7 @@
 			"VISION":			"Vision",
 			"BENEFITS":			"Advantages",
 			"ASSOCIATES":		"Partners",
+			"INTERFACE":		"Interface",
 			"TEAM":				"Team",
 			"CONTACT":			"Contact",
 			"REGISTER":			"Register"
@@ -50,10 +51,10 @@
 	"BENEFITS": {
 
 		"HEADING":				"Advantages",
-		"LINE_1":				"As a <em>project or initiative</em>, you are in full control of your data. You can manage your information and indicate your needs in one place. From there your current data is automatically spread to connected platforms giving your project high visibility. This means, you only need to communicate changes to your information once and dedicate most of your time to what you do best.",
+		"LINE_1":				"As a <strong>project or initiative</strong>, you are in full control of your data. You can manage your information and indicate your needs in one place. From there your current data is automatically spread to connected platforms giving your project high visibility. This means, you only need to communicate changes to your information once and dedicate most of your time to what you do best.",
 		"LINE_2":				"",
 		"LINE_3":				"",
-		"LINE_4":				"By connecting to our interface (API), your <em>platform</em> gains access to a large repository of up-to-date, categorized project data. You can stop the burdensome task of researching information and instead focus on presenting the data in your way.",
+		"LINE_4":				"By connecting to our interface (API), your <strong>platform</strong> gains access to a large repository of up-to-date, categorized project data. You can stop the burdensome task of researching information and instead focus on presenting the data in your way.",
 		"LINE_5":				"",
 		"LINE_6":				""
 	},
@@ -61,9 +62,9 @@
 
 	"ASSOCIATES": {
 
-		"HEADING":				"Current <strong>Partners</strong>",
-		"PARAGRAPH_1":			"<strong>RefugeeBoard</strong> is an Online platform which offers an overview over current projects, contact persons, helpful Links und addresses around the topic \"Arriving in Germany\" and supports support seekers and support offerers to get in contact quick and directly.",
-		"PARAGRAPH_2":			"<strong>InfoCompass</strong> is an information and communication platform for newcomers, refugees and asylum seeking people and supporters in Berlin. Aim of the platform ist to distribute informations and offers for refugees and supporters in multi languages in the internet but also in place in the shelters. This should make reaching out to the different target groups much more effective."
+		"HEADING":				"Current Partners",
+		"PARAGRAPH_1":			"The <strong>RefugeeBoard</strong>'s concept and design are currently being reworked and metacollect's API will be integrated in that process.",
+		"PARAGRAPH_2":			"<strong>InfoCompass</strong> has a successfully tested implementing metacollect's API and we are working on a full integration."
 	},
 
 	"INTERFACE": {

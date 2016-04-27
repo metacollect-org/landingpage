@@ -7,6 +7,7 @@
 			"VISION":			"Vision",
 			"BENEFITS":			"Vorteile",
 			"ASSOCIATES":		"Partner",
+			"INTERFACE":		"Schnittstelle",
 			"TEAM":				"Team",
 			"CONTACT":			"Kontakt",
 			"REGISTER":			"Anmelden"
@@ -50,10 +51,10 @@
 	"BENEFITS": {
 
 		"HEADING":				"Vorteile",
-		"LINE_1":				"Als <em>Projektinitiative</em> informierst Du über Dein Projekt und kommunizierst deinen eigenen Bedarf. ",
+		"LINE_1":				"Als <strong>Projektinitiative</strong> informierst Du über Dein Projekt und kommunizierst deinen eigenen Bedarf. ",
 		"LINE_2":				"Dein Eintrag wird automatisch ber die Veröffentlichung auf unterschiedlichen Projektübersichtsplattformen multipliziert.",
 		"LINE_3":				"Du hälst deine Daten an einem zentralen Ort aktuell, behälst die Kontrolle über sie und konzentrierst Dich auf Deine tägliche Arbeit.",
-		"LINE_4":				"Als <em>Projektübersichtsplattform</em> integrierst Du ständig aktuelle Daten, indem Du einmalig eine einheitliche Schnittstelle einrichtest.",
+		"LINE_4":				"Als <strong>Projektübersichtsplattform</strong> integrierst Du ständig aktuelle Daten, indem Du einmalig eine einheitliche Schnittstelle einrichtest.",
 		"LINE_5":				"So kannst Du Dich auf den thematischen Schwerpunkt Deiner Plattform konzentrieren.",
 		"LINE_6":				""
 	},
@@ -61,8 +62,8 @@
 	"ASSOCIATES": {
 
 		"HEADING":				"Projektpartner",
-		"PARAGRAPH_1":			"<strong>RefugeeBoard</strong> ist eine Online-Plattform, die einen Überblick über aktuelle Projekte bietet, Ansprechpartner, hilfreiche Links und Adressen rund um das Thema \"Ankunft in Deutschland\" versammelt und es Hilfesuchenden und Helfern gleichermaßen ermöglicht schnell und direkt in Kontakt zu treten.",
-		"PARAGRAPH_2":			"<strong>InfoCompass</strong> ist eine Informations- und Kommunikationsplattform für Geflüchtete und Asylsuchende Menschen und Unerstützer in Berlin. Ziel der Plattform ist es, Informationen und Angebote für Geflüchtete und Helfer merhsprachig um Internet aber auch vor Ort in den Unterkünften zur Verfügung zu stellen. Die unterschiedlichen Zielgruppen sollem so wirkungsvoller erreicht werden können."
+		"PARAGRAPH_1":			"Das <strong>RefugeeBoard</strong> wird momentan neu konzipiert und im Zuge dessen an unsere Schnittstelle angebunden.",
+		"PARAGRAPH_2":			"Der <strong>InfoCompass</strong> hat versuchsweise unsere Schnittstelle benutzt und an einer vollständigen Umstellung des backends auf metacollect wird gearbeitet."
 	},
 
 	"INTERFACE": {
@@ -90,7 +91,7 @@
 
 	"CONTACT": {
 		"HEADING":				"Kontakt",
-		"PARAGRAPH_1":			"Aufruf zur Unterstüzung <br/> des metacollects!"
+		"PARAGRAPH_1":			"Wir suchen Hilfe beim Projektmanagement, beim einwerben finanzieller Unterstützung und den direkten Kontakt zu Projekten und Übersichtsplattformen."
 	},
 
 	"FOOTER": {
