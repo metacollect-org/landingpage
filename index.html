@@ -13,7 +13,6 @@
 		<link type="text/css" rel="stylesheet" href="styles/styles.css"/>
 		<link type="text/css" rel="stylesheet" href="styles/font-awesome.min.css"/>
 
-
 		<!-- favicon -->
 		<link rel="shortcut icon" href="mc_favicon.ico">
 		<link rel="icon" type="image/png" href="mc_favicon.png" sizes="32x32">
@@ -45,7 +44,8 @@
 				ng-if		= "narrow"	
 				ng-click 	= "toggleMenu()"
 			>
-				<i class = "fa fa-bars"></i>
+				<i ng-if = "!showMenu"	class = "fa fa-bars"></i>
+				<i ng-if = "showMenu"	class = "fa fa-times"></i>
 			</button>
 			
 			<button 

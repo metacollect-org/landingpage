@@ -535,7 +535,7 @@ em {
 #search-bar {
 	background:				#fff;
 	position:				relative;
-	font-size:				1.6em;
+	font-size:				1.6rem;
 	line-height:			1.4em;
 }
 
@@ -793,3 +793,65 @@ em {
 a.logo:hover{
 	cursor:				pointer;
 }
+
+
+
+/* mailchimp custom styles */
+
+
+#mc_embed_signup {
+	width:					40rem;
+	font-size:				1rem;
+	margin:					2rem auto;
+}
+
+.narrow #mc_embed_signup {
+	width:					24rem;
+}
+
+#mc_embed_signup .email {
+	display:				inline-block;
+	position:				relative;
+	font-size:				1em;
+	line-height:			1.4em;
+	height:					1.4em;
+	margin:					auto;
+	border:					none;
+	width:					18rem;
+	background:				#ededef;
+	color:					#000;
+	padding:				0.3em 1rem;
+	font-family:			source-code-pro-regular;
+}
+
+.narrow #mc_embed_signup .email{
+	display:				block;
+	width:					22rem;
+	text-align:				center;
+}
+
+#mc_embed_signup .clear{
+	display:				inline-block;
+}
+
+#mc_embed_signup .button {
+	display:				inline-block;
+	font-size:				1em;
+	width:					19rem;
+	line-height:			1.4em;
+	border:					none;
+	border-radius:			0;
+	padding:				0.3rem 0rem;
+	background:				#1922fb;
+	color:					#fff;
+
+}
+
+
+.narrow #mc_embed_signup .button {
+	margin-top:				1rem;
+	display:				block;
+	width:					24rem;
+}
+
+
