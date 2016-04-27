@@ -91,7 +91,11 @@
 
 	"CONTACT": {
 		"HEADING":				"Kontakt",
-		"PARAGRAPH_1":			"Wir suchen Hilfe beim Projektmanagement, beim einwerben finanzieller Unterstützung und den direkten Kontakt zu Projekten und Übersichtsplattformen."
+		"PARAGRAPH_1":			"Wir suchen Hilfe beim Projektmanagement, beim einwerben finanzieller Unterstützung und den direkten Kontakt zu Projekten und Übersichtsplattformen.",
+		"NEWSLETTER": {
+			"PLACEHOLDER":		"E-Mail-Adresse",
+			"SUBMIT":			"Newsletter abbonieren"
+		}
 	},
 
 	"FOOTER": {

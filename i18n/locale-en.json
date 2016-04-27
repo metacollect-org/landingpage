@@ -92,7 +92,11 @@
 
 	"CONTACT": {
 		"HEADING":				"Contact",
-		"PARAGRAPH_1":			"We are looking for support in terms of project management, funding opportunities and connections to projects and platforms."
+		"PARAGRAPH_1":			"We are looking for support in terms of project management, funding opportunities and connections to projects and platforms.",
+		"NEWSLETTER": {
+			"PLACEHOLDER":		"e-mail address",
+			"SUBMIT":			"subscribe to our newsletter"
+		}
 	},
 
 	"FOOTER": {
