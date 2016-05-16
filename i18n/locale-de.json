@@ -20,7 +20,8 @@
 		"SEARCH": {
 			"PLACEHOLDER":		"Ist mein Projekt bei metacollect?",
 			"NO_MATCHES":		"Es wurden keine Einträge gefunden.",
-			"REGISTER":			"Jetzt anmelden"
+			"REGISTER":			"Jetzt anmelden",
+			"MORE_MATCHES": 	"Mehr Ergebnisse anzeigen"
 		}
 	},
 
