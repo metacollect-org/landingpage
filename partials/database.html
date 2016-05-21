@@ -37,7 +37,7 @@
 				>
 				</a>
 			</li>
-			<li ng-repeat = "item in data | limitTo:10">
+			<li ng-repeat = "item in data | limitTo:limitResults">
 				<span class ="logo" style ="background-image: url('{{item.logo}}')"></span><!--
 			--><span class ="title"><a href ="http://django.dsini20.schedar.uberspace.de/mainApp/{{item.id}}/">{{item.title | htmlToPlaintext}}</a></span>
 				<div class ="description">
@@ -50,6 +50,7 @@
 				</div>
 			</li>
 		</ul>
+			<button ng-if="data.length > 10" ng-hide="data.length > 10 && data.length < limitResults" id="button__more-results" ng-click="moreResults()" translate = "DATABASE.SEARCH.MORE_MATCHES"></button>
 	</div>
-</articlle>
+</article>
 

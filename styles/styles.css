@@ -853,4 +853,11 @@ a.logo:hover{
 	width:					24rem;
 }
 
+/* show more result button */
+#button__more-results{
+	line-height: 30px;
+	border: 1px solid #333;
+	width: 100%;
+}
+
 

@@ -20,7 +20,8 @@
 		"SEARCH": {
 			"PLACEHOLDER":		"Is my project with metacollect?",
 			"NO_MATCHES":		"No results found.",
-			"REGISTER":			"Enter your information now."
+			"REGISTER":			"Enter your information now.",
+			"MORE_MATCHES": 	"Show more results"
 		}
 	},
 
